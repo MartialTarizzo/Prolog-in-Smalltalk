@@ -13,4 +13,10 @@ Adapted from GNU Smalltalk
 | Modified by Paolo Bonzini (removed GUI).
 ======================================================================
 
-See documentation / Bundle / Packages comments.
+See documentation / Bundle and Packages comments.
+
+The last version of this package is on the Cincom Public Repository:
+the bundle "Prolog" contains two packages 
+- "PrologCore" 
+- "PrologShell" 
+

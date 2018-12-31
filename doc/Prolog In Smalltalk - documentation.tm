@@ -1575,45 +1575,35 @@
 
   \;
 
-  consult (X)*******************************TODO
+  <prim|consult (X)>
 
-  Read and load Prolog program from the file specified by X
+  Read and load Prolog program from the file specified by X.
 
-  We will add it at the end and succeed. Corresponding file does not exist
+  If the corresponding file does not exist, it fails.
 
-  Farewell fails.
+  <prim|reconsult (X)>
 
-  \;
+  Read and reload Prolog program from the file specified by X.
 
-  reconsult (X)*******************************TODO
+  This predicate will replace the same predicate clause and succeed.\ 
 
-  Read and load Prolog program from the file specified by X
+  If the corresponding file does not exist, it fails.
 
-  We will replace it with the same predicate clause and succeed.
-  Corresponding file
+  <prim|saving>
 
-  If it does not exist it fails.
+  Open a dialog to choose a filename where the clauses of all the registered
+  predicates are saved.
 
-  \;
-
-  saving*******************************TODO
-
-  The clauses of all the registered predicates are specified in the input
-  dialog
-
-  It outputs to the IL, and it always succeeds.
+  Always succeeds.
 
   \;
 
-  saving (X)*******************************TODO
+  <prim|saving (X)>
 
-  A clause with the predicate of the symbol specified by X is specified in
-  the input dialog
+  Open a dialog to choose a filename where the clauses of predicate X are
+  saved.
 
-  It outputs to the file and succeeds. It fails if there is no corresponding
-  predicate
-
-  .
+  Always succeeds.
 
   \;
 
@@ -1646,37 +1636,6 @@
 
     no
   </icode>
-
-  **********************TODO ? ***************************
-
-  <prim|'~addvar'(L,N,M)>
-
-  En voici un test :
-
-  \;
-
-  :- remove.
-
-  '~addvar'(L,0,M) :- !, =(L,M).
-
-  '~addvar'(L,NVars,M) :- -(NVars, 1, N), append(L,[A],LV),
-  '~addvar'(LV,N,M).
-
-  :- '~addvar'([a],1,M).\ 
-
-  \;
-
-  ?- remove.
-
-  yes
-
-  ?- '~addvar'([a],1,M).
-
-  M = [a,A3]
-
-  no
-
-  ***********************************************
 
   <prim|arg (N, S, T)>
 
