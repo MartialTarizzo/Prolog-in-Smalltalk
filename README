@@ -1,0 +1,16 @@
+======================================================================
+|
+|   Prolog interpreter written in Smalltalk
+|   Modified for VW 7.10 - Martial Tarizzo
+|
+======================================================================
+From the initial Goodies for VisualWorks 2.5/2.5J and VisualWave 1.0
+Copyright (C) 1995-1997 AOKI Atsushi
+1997/02/21
+======================================================================
+Adapted from GNU Smalltalk
+| Written by Aoki Atsushi and Nishihara Satoshi.
+| Modified by Paolo Bonzini (removed GUI).
+======================================================================
+
+See documentation / Bundle / Packages comments.
