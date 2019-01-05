@@ -19,6 +19,8 @@
 
   <chapter*|Prolog in Smalltalk (VisualWorks)>
 
+  <center|Cincom Public repository version 1.2 - January 5, 2019>
+
   <\table-of-contents|toc>
     <vspace*|2fn><with|font-series|bold|math-font-series|bold|font-size|1.19|Prolog
     in Smalltalk (VisualWorks)> <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
@@ -79,94 +81,98 @@
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-16><vspace|0.5fn>
 
-    <with|par-left|1tab|3.1<space|2spc>constants
+    <with|par-left|1tab|3.1<space|2spc>Comments
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-17>>
 
-    <with|par-left|2tab|3.1.1<space|2spc>Symbols
+    <with|par-left|1tab|3.2<space|2spc>constants
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-18>>
 
-    <with|par-left|2tab|3.1.2<space|2spc>Numbers
+    <with|par-left|2tab|3.2.1<space|2spc>Symbols
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-19>>
 
-    <with|par-left|2tab|3.1.3<space|2spc>Strings
+    <with|par-left|2tab|3.2.2<space|2spc>Numbers
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-20>>
 
-    <with|par-left|2tab|3.1.4<space|2spc>Lists
+    <with|par-left|2tab|3.2.3<space|2spc>Strings
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-21>>
 
-    <with|par-left|4tab|Examples: <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-    <no-break><pageref|auto-22><vspace|0.15fn>>
-
-    <with|par-left|1tab|3.2<space|2spc>Smalltalk Objects
+    <with|par-left|2tab|3.2.4<space|2spc>Lists
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-    <no-break><pageref|auto-23>>
+    <no-break><pageref|auto-22>>
 
     <with|par-left|4tab|Examples: <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-    <no-break><pageref|auto-24><vspace|0.15fn>>
+    <no-break><pageref|auto-23><vspace|0.15fn>>
 
-    <with|par-left|1tab|3.3<space|2spc>Variables
+    <with|par-left|1tab|3.3<space|2spc>Smalltalk Objects
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-    <no-break><pageref|auto-25>>
+    <no-break><pageref|auto-24>>
+
+    <with|par-left|4tab|Examples: <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-25><vspace|0.15fn>>
+
+    <with|par-left|1tab|3.4<space|2spc>Variables
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-26>>
 
     <with|par-left|4tab|Examples of variables:
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-    <no-break><pageref|auto-26><vspace|0.15fn>>
-
-    <with|par-left|4tab|Code example: <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-27><vspace|0.15fn>>
 
-    <with|par-left|1tab|3.4<space|2spc>System predicates
-    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-    <no-break><pageref|auto-28>>
+    <with|par-left|4tab|Code example: <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-28><vspace|0.15fn>>
 
-    <with|par-left|2tab|3.4.1<space|2spc>System predicate list
+    <with|par-left|1tab|3.5<space|2spc>System predicates
     <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-29>>
 
-    <with|par-left|2tab|3.4.2<space|2spc>Embedded system predicate
-    (systemPredicatesNo 0) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <with|par-left|2tab|3.5.1<space|2spc>System predicate list
+    <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-30>>
 
-    <with|par-left|2tab|3.4.3<space|2spc>Basic system predicate
-    (systemPredicatesNo1) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <with|par-left|2tab|3.5.2<space|2spc>Embedded system predicate
+    (systemPredicatesNo 0) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-31>>
 
-    <with|par-left|2tab|3.4.4<space|2spc>System predicate on comparison
-    operation (systemPredicatesNo 2) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <with|par-left|2tab|3.5.3<space|2spc>Basic system predicate
+    (systemPredicatesNo1) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-32>>
 
-    <with|par-left|2tab|3.4.5<space|2spc>System predicate on arithmetic
-    operations (systemPredicatesNo 3) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <with|par-left|2tab|3.5.4<space|2spc>System predicate on comparison
+    operation (systemPredicatesNo 2) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-33>>
 
-    <with|par-left|2tab|3.4.6<space|2spc>System predicate on clauses and
-    terms (systemPredicatesNo 4) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <with|par-left|2tab|3.5.5<space|2spc>System predicate on arithmetic
+    operations (systemPredicatesNo 3) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-34>>
 
-    <with|par-left|2tab|3.4.7<space|2spc>High-order system predicate
-    (systemPredicatesNo 5) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <with|par-left|2tab|3.5.6<space|2spc>System predicate on clauses and
+    terms (systemPredicatesNo 4) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-35>>
 
-    <with|par-left|2tab|3.4.8<space|2spc>System predicate on input / output
-    (systemPredicatesNo 6) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <with|par-left|2tab|3.5.7<space|2spc>High-order system predicate
+    (systemPredicatesNo 5) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-36>>
 
-    <with|par-left|2tab|3.4.9<space|2spc>System predicate for debugging
-    (systemPredicatesNo 7) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <with|par-left|2tab|3.5.8<space|2spc>System predicate on input / output
+    (systemPredicatesNo 6) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-37>>
 
-    <with|par-left|2tab|3.4.10<space|2spc>Other system predicates
-    (systemPredicatesNo 8) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <with|par-left|2tab|3.5.9<space|2spc>System predicate for debugging
+    (systemPredicatesNo 7) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-38>>
 
-    <with|par-left|2tab|3.4.11<space|2spc>User defined system predicate
-    (systemPredicatesNo 9) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <with|par-left|2tab|3.5.10<space|2spc>Other system predicates
+    (systemPredicatesNo 8) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
     <no-break><pageref|auto-39>>
+
+    <with|par-left|2tab|3.5.11<space|2spc>User defined system predicate
+    (systemPredicatesNo 9) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+    <no-break><pageref|auto-40>>
   </table-of-contents>
 
   <new-page>
@@ -746,6 +752,17 @@
   <em|Important : Everything in PiS is prefix notation, prefix / infix /
   postfix with op predicates cannot be defined.>
 
+  <subsection|Comments>
+
+  In <name|PiS>, there are two types of comments:
+
+  <\enumerate>
+    <item>from the character '%' to the end of line
+
+    <item>between '/*' and '*/ for multi-lines comments. These comments
+    cannot be nested for now.
+  </enumerate>
+
   <subsection|constants>
 
   The constants of PiS are as follows.
@@ -882,9 +899,7 @@
 
   Variables are alphanumeric characters that begin with an uppercase letter.\ 
 
-  The anonymous variable is the character <em|tilde> <math|\<sim\>> (not the
-  character underline <verbatim|_> , as in the others implementations of
-  Prolog)
+  The anonymous variable is the character <em|underline> _
 
   <paragraph|Examples of variables:>
 
@@ -895,7 +910,7 @@
 
     Variable1234
 
-    ~
+    _
   </icode>
 
   <paragraph|Code example:>
@@ -913,7 +928,7 @@
 
     likes (sahara, prolog).
 
-    ?- likes(~,smalltalk).
+    ?- likes(_,smalltalk).
 
     yes
 
@@ -925,7 +940,7 @@
 
     no
 
-    ?- likes(watanabe,~).
+    ?- likes(watanabe,_).
 
     yes
 
@@ -935,13 +950,6 @@
 
     no
   </icode>
-
-  Why use <math|\<sim\>> for anonymous variables ?
-
-  \P<verbatim|_>\Q is used in some flavors of Smalltalk for substitution
-  (also \P\<leftarrow\>\Q or \P:=\Q) and \P_\Q can appear in Smalltalk
-  message names. Therefore, to ease the interface between Smalltalk and
-  Prolog, \P<math|\<sim\>>\Q is used for the anonymous variable.
 
   <subsection|System predicates>
 
@@ -2252,31 +2260,32 @@
     <associate|auto-15|<tuple|2.4|6>>
     <associate|auto-16|<tuple|3|7>>
     <associate|auto-17|<tuple|3.1|7>>
-    <associate|auto-18|<tuple|3.1.1|7>>
-    <associate|auto-19|<tuple|3.1.2|7>>
+    <associate|auto-18|<tuple|3.2|7>>
+    <associate|auto-19|<tuple|3.2.1|7>>
     <associate|auto-2|<tuple|1|2>>
-    <associate|auto-20|<tuple|3.1.3|7>>
-    <associate|auto-21|<tuple|3.1.4|7>>
-    <associate|auto-22|<tuple|3.1.4.1|8>>
-    <associate|auto-23|<tuple|3.2|8>>
-    <associate|auto-24|<tuple|3.2.0.2|8>>
-    <associate|auto-25|<tuple|3.3|8>>
-    <associate|auto-26|<tuple|3.3.0.3|8>>
-    <associate|auto-27|<tuple|3.3.0.4|8>>
-    <associate|auto-28|<tuple|3.4|9>>
-    <associate|auto-29|<tuple|3.4.1|9>>
+    <associate|auto-20|<tuple|3.2.2|7>>
+    <associate|auto-21|<tuple|3.2.3|7>>
+    <associate|auto-22|<tuple|3.2.4|8>>
+    <associate|auto-23|<tuple|3.2.4.1|8>>
+    <associate|auto-24|<tuple|3.3|8>>
+    <associate|auto-25|<tuple|3.3.0.2|8>>
+    <associate|auto-26|<tuple|3.4|8>>
+    <associate|auto-27|<tuple|3.4.0.3|8>>
+    <associate|auto-28|<tuple|3.4.0.4|8>>
+    <associate|auto-29|<tuple|3.5|9>>
     <associate|auto-3|<tuple|2|2>>
-    <associate|auto-30|<tuple|3.4.2|10>>
-    <associate|auto-31|<tuple|3.4.3|12>>
-    <associate|auto-32|<tuple|3.4.4|13>>
-    <associate|auto-33|<tuple|3.4.5|14>>
-    <associate|auto-34|<tuple|3.4.6|15>>
-    <associate|auto-35|<tuple|3.4.7|18>>
-    <associate|auto-36|<tuple|3.4.8|19>>
-    <associate|auto-37|<tuple|3.4.9|19>>
-    <associate|auto-38|<tuple|3.4.10|19>>
-    <associate|auto-39|<tuple|3.4.11|20>>
+    <associate|auto-30|<tuple|3.5.1|9>>
+    <associate|auto-31|<tuple|3.5.2|10>>
+    <associate|auto-32|<tuple|3.5.3|12>>
+    <associate|auto-33|<tuple|3.5.4|13>>
+    <associate|auto-34|<tuple|3.5.5|14>>
+    <associate|auto-35|<tuple|3.5.6|15>>
+    <associate|auto-36|<tuple|3.5.7|18>>
+    <associate|auto-37|<tuple|3.5.8|19>>
+    <associate|auto-38|<tuple|3.5.9|19>>
+    <associate|auto-39|<tuple|3.5.10|20>>
     <associate|auto-4|<tuple|2.1|2>>
+    <associate|auto-40|<tuple|3.5.11|20>>
     <associate|auto-5|<tuple|2.1.1|2>>
     <associate|auto-6|<tuple|2.1.2|3>>
     <associate|auto-7|<tuple|1|3>>
@@ -2353,100 +2362,104 @@
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-16><vspace|0.5fn>
 
-      <with|par-left|<quote|1tab>|3.1<space|2spc>constants
+      <with|par-left|<quote|1tab>|3.1<space|2spc>Comments
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-17>>
 
-      <with|par-left|<quote|2tab>|3.1.1<space|2spc>Symbols
+      <with|par-left|<quote|1tab>|3.2<space|2spc>constants
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-18>>
 
-      <with|par-left|<quote|2tab>|3.1.2<space|2spc>Numbers
+      <with|par-left|<quote|2tab>|3.2.1<space|2spc>Symbols
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-19>>
 
-      <with|par-left|<quote|2tab>|3.1.3<space|2spc>Strings
+      <with|par-left|<quote|2tab>|3.2.2<space|2spc>Numbers
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-20>>
 
-      <with|par-left|<quote|2tab>|3.1.4<space|2spc>Lists
+      <with|par-left|<quote|2tab>|3.2.3<space|2spc>Strings
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-21>>
 
-      <with|par-left|<quote|4tab>|Examples:
+      <with|par-left|<quote|2tab>|3.2.4<space|2spc>Lists
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-22><vspace|0.15fn>>
-
-      <with|par-left|<quote|1tab>|3.2<space|2spc>Smalltalk Objects
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-23>>
+      <no-break><pageref|auto-22>>
 
       <with|par-left|<quote|4tab>|Examples:
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-24><vspace|0.15fn>>
+      <no-break><pageref|auto-23><vspace|0.15fn>>
 
-      <with|par-left|<quote|1tab>|3.3<space|2spc>Variables
+      <with|par-left|<quote|1tab>|3.3<space|2spc>Smalltalk Objects
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-25>>
+      <no-break><pageref|auto-24>>
+
+      <with|par-left|<quote|4tab>|Examples:
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-25><vspace|0.15fn>>
+
+      <with|par-left|<quote|1tab>|3.4<space|2spc>Variables
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-26>>
 
       <with|par-left|<quote|4tab>|Examples of variables:
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-26><vspace|0.15fn>>
+      <no-break><pageref|auto-27><vspace|0.15fn>>
 
       <with|par-left|<quote|4tab>|Code example:
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-27><vspace|0.15fn>>
+      <no-break><pageref|auto-28><vspace|0.15fn>>
 
-      <with|par-left|<quote|1tab>|3.4<space|2spc>System predicates
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-28>>
-
-      <with|par-left|<quote|2tab>|3.4.1<space|2spc>System predicate list
+      <with|par-left|<quote|1tab>|3.5<space|2spc>System predicates
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-29>>
 
-      <with|par-left|<quote|2tab>|3.4.2<space|2spc>Embedded system predicate
-      (systemPredicatesNo 0) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|2tab>|3.5.1<space|2spc>System predicate list
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-30>>
 
-      <with|par-left|<quote|2tab>|3.4.3<space|2spc>Basic system predicate
-      (systemPredicatesNo1) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|2tab>|3.5.2<space|2spc>Embedded system predicate
+      (systemPredicatesNo 0) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-31>>
 
-      <with|par-left|<quote|2tab>|3.4.4<space|2spc>System predicate on
-      comparison operation (systemPredicatesNo 2)
-      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|2tab>|3.5.3<space|2spc>Basic system predicate
+      (systemPredicatesNo1) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-32>>
 
-      <with|par-left|<quote|2tab>|3.4.5<space|2spc>System predicate on
-      arithmetic operations (systemPredicatesNo 3)
+      <with|par-left|<quote|2tab>|3.5.4<space|2spc>System predicate on
+      comparison operation (systemPredicatesNo 2)
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-33>>
 
-      <with|par-left|<quote|2tab>|3.4.6<space|2spc>System predicate on
-      clauses and terms (systemPredicatesNo 4)
+      <with|par-left|<quote|2tab>|3.5.5<space|2spc>System predicate on
+      arithmetic operations (systemPredicatesNo 3)
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-34>>
 
-      <with|par-left|<quote|2tab>|3.4.7<space|2spc>High-order system
-      predicate (systemPredicatesNo 5) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|2tab>|3.5.6<space|2spc>System predicate on
+      clauses and terms (systemPredicatesNo 4)
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-35>>
 
-      <with|par-left|<quote|2tab>|3.4.8<space|2spc>System predicate on input
-      / output (systemPredicatesNo 6) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|2tab>|3.5.7<space|2spc>High-order system
+      predicate (systemPredicatesNo 5) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-36>>
 
-      <with|par-left|<quote|2tab>|3.4.9<space|2spc>System predicate for
-      debugging (systemPredicatesNo 7) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|2tab>|3.5.8<space|2spc>System predicate on input
+      / output (systemPredicatesNo 6) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-37>>
 
-      <with|par-left|<quote|2tab>|3.4.10<space|2spc>Other system predicates
-      (systemPredicatesNo 8) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|2tab>|3.5.9<space|2spc>System predicate for
+      debugging (systemPredicatesNo 7) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-38>>
 
-      <with|par-left|<quote|2tab>|3.4.11<space|2spc>User defined system
-      predicate (systemPredicatesNo 9) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <with|par-left|<quote|2tab>|3.5.10<space|2spc>Other system predicates
+      (systemPredicatesNo 8) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-39>>
+
+      <with|par-left|<quote|2tab>|3.5.11<space|2spc>User defined system
+      predicate (systemPredicatesNo 9) <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-40>>
     </associate>
   </collection>
 </auxiliary>
