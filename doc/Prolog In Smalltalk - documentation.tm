@@ -238,7 +238,7 @@
 
   Nine instance methods of Object are added to the category named prolog.
 
-  The set set is as follows:<vspace|2mm>
+  The set is as follows:<vspace|2mm>
 
   <\quotation>
     <\wide-tabular>
@@ -338,7 +338,7 @@
 
   \;
 
-  One can save/load prolog text files with the corresponding menu commands or
+  One can save/load Prolog text files with the corresponding menu commands or
   the keyboard shortcuts <strong|Ctrl-S> and <strong|Ctrl-O>.
 
   <paragraph|Examples of interaction>
@@ -448,7 +448,7 @@
 
   Derivation will be attempted and the first unifier that satisfies the goal
   will be returned (or false if it fails). A unifier is a Smalltalk
-  dictionary (variables are the keys, associated with the prolog values which
+  dictionary (variables are the keys, associated with the Prolog values which
   satisfy the goal).
 
   \;
@@ -554,7 +554,7 @@
   \;
 
   The method associated with the <verbatim|message> in in charge of returning
-  an object known to prolog (PrologString, PrologSymbol, PrologList,
+  an object known to Prolog (PrologString, PrologSymbol, PrologList,
   <text-dots>) ; otherwise a PrologObject will be returned.
 
   \;
@@ -583,7 +583,7 @@
   </indent>
 
   The last result is aPrologObject (representing a Smalltalk string) not
-  usable directly by prolog, but by Smalltalk:
+  usable directly by Prolog, but by Smalltalk:
 
   <\indent>
     <verbatim|?- send({'78'}, size, [],S).> \U\<gtr\> <verbatim|S = 2>
@@ -956,7 +956,7 @@
   Predicates embedded in Prolog's system beforehand are described as system
   predicates.\ 
 
-  One can find the corresponding prolog code in the Smalltalk methods
+  One can find the corresponding Prolog code in the Smalltalk methods
 
   <\icode>
     <verbatim|PrologInterpreter\<gtr\>\<gtr\>systemPredicatesNo<em|X>><space|1em>(private
@@ -1347,8 +1347,6 @@
   </icode>
 
   \ is useful.
-
-  \;
 
   <prim|send (X, Y, Z)> <prim|send (X, Y, Z, A)>
 
@@ -2236,6 +2234,8 @@
   is a dummy method where you can define your owns.
 
   <htab|5mm>
+
+  \;
 </body>
 
 <\initial>
